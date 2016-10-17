@@ -1,7 +1,7 @@
 {
   "name": "image-marker",
   "version": "1.0.0",
-  "description": "mark image part with text or image",
+  "description": "mark image part with text",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava",
