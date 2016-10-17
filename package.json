@@ -1,0 +1,35 @@
+{
+  "name": "image-marker",
+  "version": "1.0.0",
+  "description": "mark image part with text or image",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava",
+    "example": "lite-server -c ./lite-server-config.json",
+    "prod": "WEBPACK_ENV=prod webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch"
+  },
+  "keywords": [
+    "image",
+    "image-marker"
+  ],
+  "author": "billyct",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-loader": "^6.2.5",
+    "browser-env": "^2.0.11",
+    "jsdom": "9.8.0",
+    "jsdom-global": "2.1.0",
+    "lite-server": "^2.2.2",
+    "webpack": "^1.13.2",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "globals": [
+      "document",
+      "window",
+      "Image"
+    ]
+  }
+}

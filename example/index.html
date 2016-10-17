@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example for image-mark</title>
+</head>
+<body>
+
+<img id="test-img"/>
+
+<script src="/dist/image-marker.js"></script>
+<script>
+	var imageMarker = new ImageMarker('/img/X.jpg');
+	imageMarker.mark({
+		text: 'if(you===true){echo "you"}',
+		fontSize: 12,
+		width: 120,
+		height: 120
+//		left: 120,
+//		top: 100
+	}, function(data) {
+		document.getElementById('test-img').src = data;
+	});
+</script>
+
+</body>
+</html>
