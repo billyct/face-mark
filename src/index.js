@@ -1,3 +1,4 @@
+'use strict';
 /**
  * 给图片用文字的形式打码
  * @example:
