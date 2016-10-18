@@ -19,8 +19,6 @@
     "ava": "^0.16.0",
     "babel-loader": "^6.2.5",
     "browser-env": "^2.0.11",
-    "jsdom": "9.8.0",
-    "jsdom-global": "2.1.0",
     "lite-server": "^2.2.2",
     "webpack": "^1.13.2",
     "xo": "^0.17.0"

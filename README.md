@@ -1,8 +1,8 @@
 # image-marker
 
-> mark image part with text
+[![Build Status](https://travis-ci.org/billyct/image-marker.svg?branch=master)](https://travis-ci.org/billyct/image-marker)
 
-background details relevant to understanding what this module does
+> mark image part with text
 
 ## Usage && API
 
